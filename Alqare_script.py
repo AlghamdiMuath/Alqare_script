@@ -58,3 +58,13 @@ from selenium.webdriver.common.by import By
 #     except Exception as e:
 #         print(f"Error processing image '{image_path}': {e}")
 #         # Uncomment the following line to raise the exception and see the full traceback
+#         # raise
+
+# # Loop through all image files in the folder and process them
+# for filename in os.listdir(image_folder):
+#     if filename.lower().endswith((".png", ".jpg", ".jpeg")):
+#         image_path = os.path.join(image_folder, filename)
+#         process_image(image_path)
+
+# # Close the browser
+# driver.quit()

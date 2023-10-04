@@ -48,3 +48,13 @@ from selenium.webdriver.common.by import By
 #         # Find the output text element
 #         output_text_element = driver.find_element(By.ID, "output-text")
 
+#         # Get the resulting text
+#         resulting_text = output_text_element.text
+
+#         # Append the resulting text to the output string
+#         output_string += resulting_text + "\n"
+
+#         print(f"Image '{image_path}' processed.")
+#     except Exception as e:
+#         print(f"Error processing image '{image_path}': {e}")
+#         # Uncomment the following line to raise the exception and see the full traceback

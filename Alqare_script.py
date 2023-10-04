@@ -128,3 +128,10 @@ def extract_text_alqare(image_path):
         print(f"Error processing image '{image_path}': {e}")
 
     # Close the browser
+    driver.quit()
+    
+    return output_string
+
+# Display the function for review
+extract_text_alqare
+

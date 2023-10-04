@@ -108,3 +108,13 @@ def extract_text_alqare(image_path):
     output_string = ""
     
     try:
+        # Find the upload input element by ID and send the image file path
+        upload_input = driver.find_element(By.ID, "preview")
+        upload_input.send_keys(image_path)
+        
+        # Wait for the file to be uploaded and the result to appear (you may need to adjust the sleep time)
+        time.sleep(10)
+        
+        # Find the output text element
+        output_text_element = driver.find_element(By.ID, "output-text")
+        

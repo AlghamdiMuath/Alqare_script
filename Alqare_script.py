@@ -68,3 +68,13 @@ from selenium.webdriver.common.by import By
 
 # # Close the browser
 # driver.quit()
+
+# # Create the output file and write the whole string to it
+# output_file = os.path.join(image_folder, "output2.txt")
+# with open(output_file, "w", encoding="utf-8") as file:
+#     file.write(output_string)
+
+# print(f"All images processed. Result written to '{output_file}'")
+
+
+

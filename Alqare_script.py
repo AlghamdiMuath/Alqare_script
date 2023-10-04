@@ -98,3 +98,13 @@ def extract_text_alqare(image_path):
     # Initialize the Chrome WebDriver
     driver = webdriver.Chrome()
     
+    # Navigate to the website
+    driver.get(url)
+    
+    # Wait for the page to load (you may need to adjust the sleep time depending on the website's loading time)
+    time.sleep(5)
+    
+    # Initialize an empty string to store the output
+    output_string = ""
+    
+    try:

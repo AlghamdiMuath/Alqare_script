@@ -118,3 +118,13 @@ def extract_text_alqare(image_path):
         # Find the output text element
         output_text_element = driver.find_element(By.ID, "output-text")
         
+        # Get the resulting text
+        resulting_text = output_text_element.text
+        
+        # Append the resulting text to the output string
+        output_string += resulting_text + "\n"
+        
+    except Exception as e:
+        print(f"Error processing image '{image_path}': {e}")
+
+    # Close the browser

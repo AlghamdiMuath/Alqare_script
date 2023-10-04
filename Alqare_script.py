@@ -88,3 +88,13 @@ def extract_text_alqare(image_path):
     Parameters:
     - image_path (str): Path to the image from which text needs to be extracted.
     
+    Returns:
+    - str: Extracted text from the image.
+    """
+    
+    # Define the website URL
+    url = "https://arbml.github.io/ARBML/Interfaces/Website/ArabicTextDetection/index.html"
+    
+    # Initialize the Chrome WebDriver
+    driver = webdriver.Chrome()
+    

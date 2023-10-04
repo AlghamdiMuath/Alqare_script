@@ -78,3 +78,13 @@ from selenium.webdriver.common.by import By
 
 
 
+
+
+
+def extract_text_alqare(image_path):
+    """
+    Extract text from an image using the Alqare web-based method.
+    
+    Parameters:
+    - image_path (str): Path to the image from which text needs to be extracted.
+    

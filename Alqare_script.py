@@ -28,3 +28,13 @@ from selenium.webdriver.common.by import By
 # driver.get(url)
 
 # # Wait for the page to load (you may need to adjust the sleep time depending on the website's loading time)
+# time.sleep(5)
+
+# # Initialize an empty string to store the output of all images
+# output_string = ""
+
+# # Function to process an individual image and append the result to the output string
+# def process_image(image_path):
+#     # Declare output_string as a global variable to be able to modify it inside the function
+#     global output_string
+#     try:

@@ -24,8 +24,11 @@ Enriches Arabic content and utilizes machine learning capabilities for Arabic te
 
 ## 🛠 Technologies Used
 
-- **Python 3.x**: For the core application.
+- **Python 3.x**
+- **Requests**: For making HTTP requests.
+- **Beautiful Soup 4**: For parsing HTML and extracting information.
 - **Selenium WebDriver**: For automating web tasks.
+- **ChromeDriver**: For interfacing with Google Chrome.
 - **Alqare Web-based OCR**: For Arabic OCR.
 
 ---
@@ -43,9 +46,3 @@ Enriches Arabic content and utilizes machine learning capabilities for Arabic te
 ## 🤝 How to Contribute
 
 Feel free to fork; PRs are welcome!
-
----
-
-## 📜 License
-
-MIT License

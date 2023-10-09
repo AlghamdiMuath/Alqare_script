@@ -6,7 +6,6 @@
 3. [Technologies Used](#-technologies-used)
 4. [Quick Start](#-quick-start)
 5. [How to Contribute](#-how-to-contribute)
-6. [License](#-license)
 
 ---
 
